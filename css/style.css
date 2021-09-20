@@ -1,0 +1,137 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.top-nav {
+  background-color: grey;
+  color: black;
+  height: 50px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.cover-photo {
+  height: 400px;
+  background-image: url(https://via.placeholder.com/960x400);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.profile {
+  position: relative;
+  margin-top: -100px;
+  margin-left: 50px;
+}
+
+.profile .profile-photo {
+  float: left;
+}
+
+.profile img {
+  border-radius: 50%;
+  border: 2px solid white;
+  -webkit-box-shadow: 1px 1px 5px #222222;
+          box-shadow: 1px 1px 5px #222222;
+}
+
+.profile .profile-name {
+  position: absolute;
+  left: 250px;
+  top: 100px;
+}
+
+.clear {
+  clear: both;
+}
+
+.spacer {
+  height: 50px;
+}
+
+header {
+  background-color: whitesmoke;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.card .card-header {
+  padding: 1rem;
+}
+
+.card .card-body {
+  padding: 1rem;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.j-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.i-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+aside {
+  display: inline-block;
+  width: 400px;
+}
+
+article {
+  width: 560px;
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+.item-center {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.search-box {
+  width: 80%;
+  padding: 8px;
+  border-radius: 15px;
+  border: 0;
+  background-color: lightgrey;
+  outline: none;
+}
+
+.search-icons div {
+  display: inline-block;
+  width: 33.33%;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
